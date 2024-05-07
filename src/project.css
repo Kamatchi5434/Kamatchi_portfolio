@@ -1,0 +1,215 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.project-overall{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:60px;
+}
+.project{
+    position: relative;
+    text-align: center;
+}
+.project>h1{
+    font-size: 7rem;
+    color: var(--gray);
+}
+.project>h2{
+    font-size: 3rem;
+    color: var(--pinkcolor);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 5px white;
+}
+.Images-div{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    flex-wrap: wrap;
+}
+.image-one{
+    background-image: url("./assets/virat_bat_image.webp");
+    width:800px;
+    height:350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* object-fit: cover; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    cursor: pointer;
+    border:2px solid var(--pinkcolor);
+}
+.boots-one{
+    background-image: url("./assets/bootsrap\ image\ two.jpg");
+    width:350px;
+    height:350px;
+}
+.project-content{
+    background-color:rgba(153, 8, 98,0.5);
+    color:var(--whitecolor);
+    width:800px;
+    height:300px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    margin-bottom:20px;
+    display: none;
+    transition: all 2s;
+    animation-name: pro;
+    animation-duration: 1s;
+}
+.image-one:hover .project-content{
+   display: flex;
+}
+@keyframes pro {
+    0%{
+        width:100%;
+        opacity:0;
+    }
+    100%{
+        width:100%;
+        opacity:1;
+    }
+}
+.image-two{
+    background-image: url("./assets/highlites.webp");
+    width:350px;
+    height:350px;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    cursor: pointer;
+    border:2px solid var(--pinkcolor);
+}
+.project-content-two{
+    background-color:rgba(153, 8, 98,0.5);
+    color:var(--whitecolor);
+    width:800px;
+    height:300px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    margin-bottom:20px;
+    display: none;
+    transition: all 2s;
+    animation-name: pro;
+    animation-duration: 1s;
+}
+.image-two:hover .project-content-two{
+    display: flex;
+ }
+ .boots-two{
+    background-image: url("./assets/bootsrap\ image\ one.jpeg");
+    width:800px;
+    height:350px;
+}
+.kitchen-one{
+    background-image: url("./assets/kitchen\ tools.jpg");
+}
+.kitchen-two{
+    background-image: url("./assets/img17.webp");
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card img{
+    width:300px;
+    height:250px;
+    object-fit: cover;
+    border-radius:20px;
+}
+.card{
+    color:var(--blackcolor);
+    box-shadow: 0 0 5px var(--pinkcolor);
+    padding:20px;
+    border-radius:10px;
+    text-align: center;
+    width:350px;
+    height:450px;
+}
+.card a{
+    font-size:60px;
+    color:var(--pinkcolor);
+    cursor: pointer;
+}
+.link-card-div{
+    padding:20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    gap:70px;
+}
+@media screen and (min-width:300px) and (max-width:550px) {
+    .project>h1{
+        font-size: 4rem;
+    }
+    .project>h2{
+        font-size: 1.5rem;
+    }
+    .image-one,.image-two,.boots-one,.boots-two{
+        width:95%;
+        height:270px;
+    }
+    .project-content,.project-content-two{
+        width:100%;
+        height:220px;
+    }
+    .card{
+        width:90%;
+        padding:10px;
+        height:400px;
+    }
+    .card a{
+        font-size:40px;
+    }
+    .card img{
+        width:95%;
+        height:230px;
+    }
+}
+@media screen and (min-width:805px) and (max-width:1200px) {
+    .image-one,.boots-one{
+        width:65%;
+    }
+    .image-two,.boots-two{
+        width:30%;
+    }
+}
+@media screen and (min-width:500px) and (max-width:805px) {
+    .image-one,.boots-one{
+        width:50%;
+    }
+    .image-two,.boots-two{
+        width:45%;
+    }
+    .card{
+        width:70%;
+    }
+    .card img{
+        width:95%;
+    }
+}

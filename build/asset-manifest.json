@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.994ab987.css",
+    "main.js": "/static/js/main.d413a864.js",
+    "static/media/kitchen project.png": "/static/media/kitchen project.0c9034ce52b4b669fb78.png",
+    "static/media/learn bootsrap.png": "/static/media/learn bootsrap.0f2ecaf23ffdaf6c6165.png",
+    "static/media/contact-illustration.png": "/static/media/contact-illustration.481d617ac8e98c9eaca9.png",
+    "static/media/bootsrap image one.jpeg": "/static/media/bootsrap image one.9823bc35915ed92a394d.jpeg",
+    "static/media/india vs aus link.jpg": "/static/media/india vs aus link.35015c76eea5d3cea366.jpg",
+    "static/media/single_pic.jpeg": "/static/media/single_pic.ace26bf6b5b3c32c0b7f.jpeg",
+    "static/media/about_me.jpeg": "/static/media/about_me.f2aa099b3c6b46e5f519.jpeg",
+    "static/media/kitchen tools.jpg": "/static/media/kitchen tools.e7e95e7d90963160e46f.jpg",
+    "static/media/virat_bat_image.webp": "/static/media/virat_bat_image.8efe3605431cedc7d2b9.webp",
+    "static/media/kamatchi_resume.pdf": "/static/media/kamatchi_resume.bdd46418373ea4ae9938.pdf",
+    "static/media/cursordesign.png": "/static/media/cursordesign.bb520406b179c6957c28.png",
+    "static/media/img17.webp": "/static/media/img17.629bc4cfb8f88cdc873e.webp",
+    "static/media/highlites.webp": "/static/media/highlites.e768e90e3042959eb07b.webp",
+    "static/media/bootsrap image two.jpg": "/static/media/bootsrap image two.2d57e18ef93e74f46f72.jpg",
+    "index.html": "/index.html",
+    "main.994ab987.css.map": "/static/css/main.994ab987.css.map",
+    "main.d413a864.js.map": "/static/js/main.d413a864.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.994ab987.css",
+    "static/js/main.d413a864.js"
+  ]
+}

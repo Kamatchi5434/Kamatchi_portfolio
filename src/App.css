@@ -1,0 +1,40 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Signika+Negative:wght@300..700&display=swap');
+.App{
+  width:100%;
+  min-height:38rem;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  /* cursor: url("./assets/cursorimg.png"), auto; */
+  font-family: "Signika Negative", sans-serif;
+  font-optical-sizing: auto;
+}
+
+:root{
+  --pinkcolor:rgb(216, 9, 95);
+  --whitecolor:white;
+  --blackcolor:black;
+  --gray:rgba(109, 106, 106, 0.4);
+}
+.website-container{
+  background-color: var(--whitecolor);
+}
+::-webkit-scrollbar{
+  width:10px;
+}
+::-webkit-scrollbar-track{
+  background-color: var(--whitecolor);
+}
+::-webkit-scrollbar-thumb{
+  background: var(--pinkcolor);
+}
+::-webkit-scrollbar-thumb:hover{
+  background: rgb(158, 3, 29);
+  cursor: pointer;
+}
